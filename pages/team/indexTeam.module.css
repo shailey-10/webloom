@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 25px;
+    width: 100%;
+    
+}
+.memberHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.memberContainer{
+    width: 70%;
+}
+
+.secondaryBar{
+    width: 25%;
+}
+
+.memberContainer hr{
+    background: rgba(31, 33, 39, 0.1);
+}
+
+.memberHeader select{
+    background-color: none;
+    border: none;
+    font-family: poppins;
+    font-size: 14px;
+    border-bottom: 1px solid black ;
+    padding: 0 10px;
+}

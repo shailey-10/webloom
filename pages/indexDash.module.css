@@ -1,0 +1,20 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 10px;
+    height: 40vh;
+    margin-bottom: 60px;
+}
+
+.line{
+    width: 74%;
+}
+
+.top{
+    width: 25%;
+}
+
+.bar{
+    width: 49%;
+}

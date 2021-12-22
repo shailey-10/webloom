@@ -1,0 +1,74 @@
+.card{
+    background: #FFFFFF;
+box-shadow: 0px 13px 18px rgba(57, 84, 255, 0.04);
+border-radius: 12px;
+padding: 10px 20px;
+height: 100%;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    min-width: 50%;
+    align-items: center;
+
+}
+
+.header h4{
+    font-weight: 500;
+    margin-bottom: 2px;
+    margin-top: 10px;
+
+}
+
+.statusList{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.statusList li{
+    list-style: none;
+    list-style: none;
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 48%;
+}
+.chart{
+width: 38%;
+margin-bottom: 12px;
+
+}
+
+.todaysStatus{
+    text-align: right;
+}
+
+.todaysStatus h4{
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.todaysStatus p{
+    font-size: 14px;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+
+.chartContents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

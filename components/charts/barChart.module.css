@@ -1,0 +1,9 @@
+.chart{
+    max-height: 38vh;
+}
+
+.line{
+    width: 100%;
+    height: 380px;
+    margin-top: 20px;
+}

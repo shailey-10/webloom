@@ -1,0 +1,15 @@
+.button{
+    background-color: #3954FF;
+    display: flex;
+    color: #fff;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    height: 48px;
+    margin-left: 15%;
+    font-size: 16px;
+    font-family: poppins;
+    column-gap: 10px;
+
+}

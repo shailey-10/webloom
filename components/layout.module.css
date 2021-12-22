@@ -1,0 +1,11 @@
+.layout{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    margin-top: 110px;
+    padding: 0px 35px 35px 35px;
+    width: 100%;
+}

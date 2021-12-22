@@ -1,0 +1,40 @@
+.intermediate{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 60%;
+    margin: 0;
+    padding: 0;
+}
+.intermediate p{
+    font-size: 14px;
+}
+.intermediateLine{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+.blue{
+    height: 10px;
+    width: 10px;
+    background-color: #3954FF;
+}
+
+.yellow{
+    height: 10px;
+    width: 10px;
+    background-color: #FFD339;
+}
+
+.dropdown select{
+    background-color: none;
+    border: none;
+    font-family: poppins;
+    font-size: 14px;
+    border-bottom: 1px solid black ;
+    padding: 0 10px;
+}
